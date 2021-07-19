@@ -1,6 +1,29 @@
+/* html */
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
 /* header */
 nav>ul {
     list-style-type: none;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
