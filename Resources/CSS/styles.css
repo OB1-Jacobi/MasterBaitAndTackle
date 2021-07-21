@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: mediumturquoise;
+    padding: 10px;
 }
 
 nav {
@@ -27,4 +28,52 @@ nav {
 
 a {
     text-decoration: none;
+}
+
+span {
+    color: orangered;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    ;
+}
+
+li>a {
+    color: ghostwhite;
+    font-size: 1.3em;
+}
+
+a:hover {
+    color: black;
+}
+
+/* mission */
+#mission {
+    background-image: url(../Images/mission-pic.jpg);
+    height: 600px;
+    display: flex;
+}
+
+.content>h2, .content>h4 {
+    background-color: ghostwhite;
+    font-family: 'IM Fell DW Pica SC', serif;
+    width: auto;
+    font-size: 2em;
+}
+
+/* tacklebox */
+
+/* team */
+#team {
+    background-color: orangered;
+    padding: 0.5em;
+}
+
+.baiters {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer */
+footer {
+    background-color: mediumturquoise;
 }
